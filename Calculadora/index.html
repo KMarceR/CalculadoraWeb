@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggZD0ibTQ1IDBjLTI0LjgxMyAwLTQ1IDIwLjE4Ny00NSA0NXYxODNoMjI4di0yMjh6bTEwNCAxMjloLTIwdjIwYzAgOC4yODQtNi43MTYgMTUtMTUgMTVzLTE1LTYuNzE2LTE1LTE1di0yMGgtMjBjLTguMjg0IDAtMTUtNi43MTYtMTUtMTVzNi43MTYtMTUgMTUtMTVoMjB2LTIwYzAtOC4yODQgNi43MTYtMTUgMTUtMTVzMTUgNi43MTYgMTUgMTV2MjBoMjBjOC4yODQgMCAxNSA2LjcxNiAxNSAxNXMtNi43MTYgMTUtMTUgMTV6Ii8+PGc+PHBhdGggZD0ibTQ3Ny44MzQgMjI4aDguMTY2di0xODNjMC0yNC44MTMtMjAuMTg3LTQ1LTQ1LTQ1aC0xODN2MjIyLjU5YzI5LjY4Ni0yMi4zMzUgNjYuNTczLTM1LjU5IDEwNi41LTM1LjU5IDQzLjA1MiAwIDgyLjU2OCAxNS40MTEgMTEzLjMzNCA0MXptLTE1NS44MzQtMTE0YzAtOC4yODQgNi43MTYtMTUgMTUtMTVoNzBjOC4yODQgMCAxNSA2LjcxNiAxNSAxNXMtNi43MTYgMTUtMTUgMTVoLTcwYy04LjI4NCAwLTE1LTYuNzE2LTE1LTE1eiIvPjxwYXRoIGQ9Im0yMjIuNTkgMjU4aC0yMjIuNTl2MTgzYzAgMjQuODEzIDIwLjE4NyA0NSA0NSA0NWgxODN2LTguMTY2Yy0yNS41ODktMzAuNzY2LTQxLTcwLjI4My00MS0xMTMuMzM0IDAtMzkuOTI3IDEzLjI1NS03Ni44MTQgMzUuNTktMTA2LjV6bS03Mi45ODQgMTI4LjM5NGM1Ljg1OCA1Ljg1OCA1Ljg1OCAxNS4zNTUgMCAyMS4yMTMtMi45MjggMi45MjktNi43NjcgNC4zOTMtMTAuNjA2IDQuMzkzcy03LjY3OC0xLjQ2NC0xMC42MDYtNC4zOTRsLTE0LjM5NC0xNC4zOTMtMTQuMzk0IDE0LjM5NGMtMi45MjggMi45MjktNi43NjcgNC4zOTMtMTAuNjA2IDQuMzkzcy03LjY3OC0xLjQ2NC0xMC42MDYtNC4zOTRjLTUuODU4LTUuODU4LTUuODU4LTE1LjM1NSAwLTIxLjIxM2wxNC4zOTMtMTQuMzkzLTE0LjM5NC0xNC4zOTRjLTUuODU4LTUuODU4LTUuODU4LTE1LjM1NSAwLTIxLjIxMyA1Ljg1Ny01Ljg1OCAxNS4zNTUtNS44NTggMjEuMjEzIDBsMTQuMzk0IDE0LjM5NCAxNC4zOTQtMTQuMzk0YzUuODU3LTUuODU4IDE1LjM1NS01Ljg1OCAyMS4yMTMgMHM1Ljg1OCAxNS4zNTUgMCAyMS4yMTNsLTE0LjM5NCAxNC4zOTR6Ii8+PC9nPjxnPjxwYXRoIGQ9Im0zNjQuNSAyMTdjLTgxLjMzMiAwLTE0Ny41IDY2LjE2OC0xNDcuNSAxNDcuNXM2Ni4xNjggMTQ3LjUgMTQ3LjUgMTQ3LjUgMTQ3LjUtNjYuMTY4IDE0Ny41LTE0Ny41LTY2LjE2OC0xNDcuNS0xNDcuNS0xNDcuNXptMzUgMTg3LjVoLTcwYy04LjI4NCAwLTE1LTYuNzE2LTE1LTE1czYuNzE2LTE1IDE1LTE1aDcwYzguMjg0IDAgMTUgNi43MTYgMTUgMTVzLTYuNzE2IDE1LTE1IDE1em0wLTUwaC03MGMtOC4yODQgMC0xNS02LjcxNi0xNS0xNXM2LjcxNi0xNSAxNS0xNWg3MGM4LjI4NCAwIDE1IDYuNzE2IDE1IDE1cy02LjcxNiAxNS0xNSAxNXoiLz48L2c+PC9nPjwvc3ZnPg=="
+		/>
+		<title>Calculadora</title>
+
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="calculadora">
+				<div class="display">
+					<div id="valor-anterior"></div>
+					<div id="valor-actual"></div>
+				</div>
+				<button class="col-2" onclick="display.borrarTodo()" style="border-top-left-radius: 32px">
+					C
+				</button>
+				<button onclick="display.borrar()">&larr;</button>
+				<button class="operador" value="dividir" style="border-top-right-radius: 32px">%</button>
+				<button class="numero">7</button>
+				<button class="numero">8</button>
+				<button class="numero">9</button>
+				<button class="operador" value="multiplicar">X</button>
+				<button class="numero">4</button>
+				<button class="numero">5</button>
+				<button class="numero">6</button>
+				<button class="operador" value="restar">-</button>
+				<button class="numero">1</button>
+				<button class="numero">2</button>
+				<button class="numero">3</button>
+				<button class="operador" value="sumar">+</button>
+				<button class="col-2 numero" style="border-bottom-left-radius: 32px">0</button>
+				<button class="numero">.</button>
+				<button class="operador" value="igual" style="border-bottom-right-radius: 32px; ">=</button>
+			</div>
+		</div>
+
+		<script src="js/calcu.js" type="text/javascript"></script>
+		<script src="js/display.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+	</body>
+</html>
+
